@@ -80,7 +80,7 @@ def get_average_age_for_season(data, season)
     end
   end
 end
-return average= array.sum / array.length
+return average= (array.sum / array.length).round
 # return array.reduce(:+).fdiv(array.size).to_i 
 end
 
